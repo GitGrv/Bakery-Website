@@ -1,0 +1,25 @@
+html,body{
+background: #fbf8f3;
+}
+button{
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em 1.25em;
+  background-color: #4e13d1;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border-radius: .25em;
+  cursor: pointer;
+  transition-duration:1000ms ;
+  transition-property:background, transform;
+  transition-timing-function: ease-out;
+
+}
+button:hover,
+button:focus{
+  background: #fbf8f3;
+  color: #4e13d1;
+  transform:scale3d();
+  opacity: 1;
+}
